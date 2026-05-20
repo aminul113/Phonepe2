@@ -1,0 +1,11 @@
+IMPORTANT:
+Your original project was missing these critical files:
+- gradlew
+- gradlew.bat
+- gradle-wrapper.jar
+
+I recreated gradlew and gradlew.bat.
+You STILL need a valid gradle-wrapper.jar inside:
+gradle/wrapper/gradle-wrapper.jar
+
+Without that file, GitHub Actions cannot build the APK.
